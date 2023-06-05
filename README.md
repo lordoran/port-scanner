@@ -40,6 +40,39 @@ Retina Network Security Scanner
 
 
 ## 2.Supported protocols: TCP, UDP, or both
+### Port scanners that support only TCP:
+Advanced Port Scanner
+AngryPortScanner
+Angry IP Scanner
+Colasoft Capsa
+GFI LanGuard
+Metasploit (can be used for TCP port scanning but has other functionalities as well)
+NetScanTools Pro
+Nmap
+OpenPortScanner
+OpenVAS
+Rapid7 Nexpose
+Retina Network Security Scanner
+SolarWinds Port Scanner
+Superscan by Foundstone
+X-Scan
+Port scanners that support only UDP:
+Unicornscan
+Zenmap (graphical interface for Nmap)
+
+### Port scanners that support both TCP and UDP:
+hping
+Masscan
+Nessus
+Nikto
+PortQry
+QualysGuard
+SoftPerfect Network Scanner
+ZMap
+
+### Port scanners that can support both TCP and UDP but have extended functionalities and uses beyond port scanning:
+Lynis (security scanner for Linux systems)
+Netcat (can be used for port scanning but has other functionalities as well)
 
 ## 3.Scan speed: Slow, medium, fast
 ## 4.Configuration flexibility: Level of customization of scanning parameters
