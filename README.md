@@ -186,7 +186,7 @@ Please note that this is not an exhaustive list, and there are several other por
 
 ## 6.Ability to identify services associated with open ports
 ### Port scanners with extended ability to identify associated services:
-~~These port scanners are known for their ability to recognize and identify specific services running on open ports, allowing for vulnerability detection and security testing.
+These port scanners are known for their ability to recognize and identify specific services running on open ports, allowing for vulnerability detection and security testing.
 Nmap
 Zenmap (graphical interface for Nmap)
 Nessus
@@ -203,7 +203,7 @@ Retina Network Security Scanner
 
 
 ### Port scanners with basic ability to identify associated services:
-~~These port scanners can provide information about open ports but are not specialized in identifying specific services associated with those ports. They can be useful for general port scanning and availability detection purposes. 
+These port scanners can provide information about open ports but are not specialized in identifying specific services associated with those ports. They can be useful for general port scanning and availability detection purposes. 
 Masscan
 Unicornscan
 hping
