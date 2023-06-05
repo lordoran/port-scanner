@@ -684,5 +684,5 @@ Retina Network Security Scanner
 
 
 
-# What the rat we can fuzz? 
+# What the …ᘛ⁐̤ᕐᐷ we can fuzz? 
 Subdomains, File and directory names, URLs and query parameters, Usernames and passwords, API endpoints and parameters, HTTP headers, Server responses (status codes, error messages), Database table and column names, Form fields (input validation, cross-site scripting), Cookies and session tokens, HTTP methods (GET, POST, PUT, DELETE), Server ports and services, DNS records and entries, Email addresses, Hidden files and directories, API keys and authentication tokens, Configuration files (e.g., .htaccess, robots.txt), Error pages and error handling mechanisms, Command injection points, SQL injection points, Cross-Site Scripting (XSS) vulnerabilities, Cross-Site Request Forgery (CSRF) vulnerabilities, Remote File Inclusion (RFI) vulnerabilities, Local File Inclusion (LFI) vulnerabilities, Server-side template injection points, XML external entity (XXE) vulnerabilities, Path traversal vulnerabilities, Server-side request forgery (SSRF) vulnerabilities, Insecure direct object references, Code injection points (e.g., eval(), system calls).
