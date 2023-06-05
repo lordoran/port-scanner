@@ -2,7 +2,7 @@
 
 
 ## 1.Scan type: Horizontal or vertical
-### Horizontal Port Scanners:                                          
+### -Horizontal Port Scanners:                                          
 Nmap
 Masscan
 Unicornscan
@@ -21,7 +21,7 @@ Colasoft Capsa
 PortQry
 Netcat 
 
-### Vertical Port Scanners:
+### -Vertical Port Scanners:
 Zenmap (este o interfață grafică pentru Nmap)
 Nessus
 Metasploit
@@ -40,7 +40,7 @@ Retina Network Security Scanner
 
 
 ## 2.Supported protocols: TCP, UDP, or both
-### Port scanners that support only TCP:
+### -Port scanners that support only TCP:
 Advanced Port Scanner
 AngryPortScanner
 Angry IP Scanner
@@ -60,7 +60,7 @@ Port scanners that support only UDP:
 Unicornscan
 Zenmap (graphical interface for Nmap)
 
-### Port scanners that support both TCP and UDP:
+### -Port scanners that support both TCP and UDP:
 hping
 Masscan
 Nessus
@@ -70,11 +70,47 @@ QualysGuard
 SoftPerfect Network Scanner
 ZMap
 
-### Port scanners that can support both TCP and UDP but have extended functionalities and uses beyond port scanning:
+### -Port scanners that can support both TCP and UDP but have extended functionalities and uses beyond port scanning:
 Lynis (security scanner for Linux systems)
 Netcat (can be used for port scanning but has other functionalities as well)
 
 ## 3.Scan speed: Slow, medium, fast
+### -Fast:
+Masscan
+Unicornscan
+hping
+ZMap
+OpenPortScanner
+AngryPortScanner
+Superscan by Foundstone
+Colasoft Capsa
+PortQry
+Netcat
+
+
+### -Medium:
+Nmap
+Zenmap
+Metasploit
+SuperScan
+Angry IP Scanner
+Advanced Port Scanner
+SoftPerfect Network Scanner
+NetScanTools Pro
+SolarWinds Port Scanner
+Rapid7 Nexpose
+Lynis
+Nikto
+
+### -Slow:
+Nessus
+OpenVAS
+GFI LanGuard
+QualysGuard
+Acunetix Vulnerability Scanner
+Retina Network Security Scanner
+Please note that the speed of a port scanner can vary based on several factors, including network conditions, target system responsiveness, and scanner configuration.
+
 ## 4.Configuration flexibility: Level of customization of scanning parameters
 ## 5.Methods of detecting open ports: Active or passive scanning
 ## 6.Ability to identify services associated with open ports
