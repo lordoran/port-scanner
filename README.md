@@ -681,19 +681,7 @@ Lynis
 Nikto
 Retina Network Security Scanner
 
-## 19.Ability to generate detailed reports and graphics for scan results
 
-## 20.Support for signature-based scanning (e.g., identifying specific types of malware or specific attacks)
-
-## 21.Ability to perform highly parallel scans to quickly cover a large number of IP addresses
-
-## 22.Support for scans in virtual private networks (VPN) or isolated networks
-
-## 23.Integration options with other security tools or platforms
-
-## 24.Ability to perform scans based on custom port lists
-## 25.Detection of systems using port hiding techniques (port knocking, reverse port knocking)
-## 26.Scan aggressiveness: from passive and undetectable scans to aggressive scans that may impact network performance or trigger security alarms.
 
 
 # What the rat we can fuzz? 
