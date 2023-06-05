@@ -184,10 +184,10 @@ Netcat
 
 Please note that this is not an exhaustive list, and there are several other port scanning tools available.
 
-!!!Please note that this classification is subjective and based on the perceived level of customization and flexibility offered by the port scanners. The actual level of configuration flexibility may vary based on the specific versions and settings of the respective tools.!!!
-
 ## 6.Ability to identify services associated with open ports
+
 ## 7.Result filtering options: Display only open ports, closed ports, or both
+
 ## 10.Support for scanning IPv4 and/or IPv6 networks
 ## 11.Ability to scan the complete range of ports (0-65535) or a specific set of ports
 ## 12.Ability to ignore well-known ports
