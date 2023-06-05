@@ -110,7 +110,7 @@ QualysGuard
 Acunetix Vulnerability Scanner
 Retina Network Security Scanner
 
-!!!Please note that the speed of a port scanner can vary based on several factors, including network conditions, target system responsiveness, and scanner configuration.!!!
+
 
 ## 4.Configuration flexibility: Level of customization of scanning parameters
 
@@ -147,7 +147,7 @@ PortQry
 OpenPortScanner
 ZMap
 Colasoft Capsa
-!!!Please note that this classification is subjective and based on the perceived level of customization and flexibility offered by the port scanners. The actual level of configuration flexibility may vary based on the specific versions and settings of the respective tools.!!!
+
 
 ## 5.Methods of detecting open ports: Active or passive scanning
 ### -Active Scanning:
@@ -182,7 +182,7 @@ PortQry
 ### -Passive Scanning:
 Netcat
 
-Please note that this is not an exhaustive list, and there are several other port scanning tools available.
+
 
 ## 6.Ability to identify services associated with open ports
 ### -Port scanners with extended ability to identify associated services:
