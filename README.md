@@ -147,41 +147,42 @@ PortQry
 OpenPortScanner
 ZMap
 Colasoft Capsa
+!!!Please note that this classification is subjective and based on the perceived level of customization and flexibility offered by the port scanners. The actual level of configuration flexibility may vary based on the specific versions and settings of the respective tools.!!!
 
 ## 5.Methods of detecting open ports: Active or passive scanning
-### -High Configuration Flexibility:
+### -Active Scanning:
 Nmap
-Zenmap
+Masscan
 Unicornscan
 Nessus
 Metasploit
 hping
+SuperScan
 Angry IP Scanner
 OpenVAS
-Rapid7 Nexpose
-Lynis
-Nikto
-AngryPortScanner
-Superscan by Foundstone
-Colasoft Capsa
-Retina Network Security Scanner
-Netcat
-
-### -Medium Configuration Flexibility:
-Masscan
+Advanced Port Scanner
 SoftPerfect Network Scanner
+X-Scan
 NetScanTools Pro
 SolarWinds Port Scanner
 GFI LanGuard
 QualysGuard
 Acunetix Vulnerability Scanner
-OpenPortScanner
-PortQry
-Low Configuration Flexibility:
-
-### -Advanced Port Scanner
-X-Scan
+Rapid7 Nexpose
 ZMap
+Lynis
+Nikto
+OpenPortScanner
+AngryPortScanner
+Superscan by Foundstone
+Colasoft Capsa
+Retina Network Security Scanner
+PortQry
+
+### -Passive Scanning:
+Netcat
+
+Please note that this is not an exhaustive list, and there are several other port scanning tools available.
 
 !!!Please note that this classification is subjective and based on the perceived level of customization and flexibility offered by the port scanners. The actual level of configuration flexibility may vary based on the specific versions and settings of the respective tools.!!!
 
