@@ -625,7 +625,7 @@ Superscan by Foundstone
 Retina Network Security Scanner
 PortQry
 Netcat
-Port Scanners without Stealth Mode Support:
+### -Port Scanners without Stealth Mode Support:
 
 Masscan
 Nessus
@@ -635,7 +635,7 @@ ZMap
 OpenVAS
 Colasoft Capsa
 
-## 17.Ability to perform scans using obfuscation methods (e.g., scanning through proxy servers)
+## 18.Ability to perform scans using obfuscation methods (e.g., scanning through proxy servers)
 ### -Port Scanners with Obfuscation Methods:
 
 Nmap
@@ -645,6 +645,7 @@ Nessus
 Metasploit
 hping
 Netcat
+
 ### -Port Scanners without Obfuscation Methods:
 
 Masscan
@@ -670,7 +671,7 @@ Colasoft Capsa
 Retina Network Security Scanner
 PortQry
 
-## 18.Identification of systems with vulnerable services on open ports
+## 19.Identification of systems with vulnerable services on open ports
 ### -Port Scanners for Identification of Systems with Vulnerable Services:
 
 Nmap
