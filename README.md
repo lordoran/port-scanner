@@ -109,7 +109,8 @@ GFI LanGuard
 QualysGuard
 Acunetix Vulnerability Scanner
 Retina Network Security Scanner
-Please note that the speed of a port scanner can vary based on several factors, including network conditions, target system responsiveness, and scanner configuration.
+
+!!!Please note that the speed of a port scanner can vary based on several factors, including network conditions, target system responsiveness, and scanner configuration.!!!
 
 ## 4.Configuration flexibility: Level of customization of scanning parameters
 ## 5.Methods of detecting open ports: Active or passive scanning
