@@ -113,7 +113,78 @@ Retina Network Security Scanner
 !!!Please note that the speed of a port scanner can vary based on several factors, including network conditions, target system responsiveness, and scanner configuration.!!!
 
 ## 4.Configuration flexibility: Level of customization of scanning parameters
+
+### -Highly Configurable:
+Nmap
+Zenmap
+Unicornscan
+Nessus
+Metasploit
+hping
+Angry IP Scanner
+OpenVAS
+X-Scan
+GFI LanGuard
+QualysGuard
+Acunetix Vulnerability Scanner
+Rapid7 Nexpose
+Lynis
+Nikto
+AngryPortScanner
+Retina Network Security Scanner
+Netcat
+
+### -Moderately Configurable:
+Masscan
+SuperScan
+Advanced Port Scanner
+SoftPerfect Network Scanner
+NetScanTools Pro
+SolarWinds Port Scanner
+PortQry
+
+### -Less Configurable:
+OpenPortScanner
+ZMap
+Colasoft Capsa
+
 ## 5.Methods of detecting open ports: Active or passive scanning
+### -High Configuration Flexibility:
+Nmap
+Zenmap
+Unicornscan
+Nessus
+Metasploit
+hping
+Angry IP Scanner
+OpenVAS
+Rapid7 Nexpose
+Lynis
+Nikto
+AngryPortScanner
+Superscan by Foundstone
+Colasoft Capsa
+Retina Network Security Scanner
+Netcat
+
+### -Medium Configuration Flexibility:
+Masscan
+SoftPerfect Network Scanner
+NetScanTools Pro
+SolarWinds Port Scanner
+GFI LanGuard
+QualysGuard
+Acunetix Vulnerability Scanner
+OpenPortScanner
+PortQry
+Low Configuration Flexibility:
+
+### -Advanced Port Scanner
+X-Scan
+ZMap
+
+!!!Please note that this classification is subjective and based on the perceived level of customization and flexibility offered by the port scanners. The actual level of configuration flexibility may vary based on the specific versions and settings of the respective tools.!!!
+
 ## 6.Ability to identify services associated with open ports
 ## 7.Result filtering options: Display only open ports, closed ports, or both
 ## 10.Support for scanning IPv4 and/or IPv6 networks
