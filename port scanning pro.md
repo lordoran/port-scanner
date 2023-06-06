@@ -173,7 +173,7 @@ Configure the fuzzing tool: Set up the chosen tool to target the identified serv
  
 **Select a fuzzing tool:** Choose a fuzzing tool that supports targeting multiple IP addresses or subnets and the specific protocols used by the services you want to fuzz. Tools like Burp Suite, OWASP ZAP, and Sulley are commonly used for this purpose.
  
-**Configure the fuzzing tool: ** Set up the fuzzing tool to target the identified services within the subnet. Specify the IP addresses and ports of the services, define the fuzzing parameters, and configure any additional options or constraints.
+**Configure the fuzzing tool:** Set up the fuzzing tool to target the identified services within the subnet. Specify the IP addresses and ports of the services, define the fuzzing parameters, and configure any additional options or constraints.
  
 **Launch the subnet fuzzing attack:** Start the fuzzing process using the configured tool. The tool will send fuzzing inputs to the target services across the IP addresses in the subnet.
  
