@@ -155,4 +155,28 @@ Configure the fuzzing tool: Set up the chosen tool to target the identified serv
 **Launch the fuzzing attack** : Start the fuzzing process using the configured tool. The tool will send various malformed or unexpected inputs to the target service to test for potential vulnerabilities.
  
 **Monitor and analyze the results** : Monitor the target system and observe how it responds to the fuzzing inputs. Look for any crashes, errors, or abnormal behavior that may indicate a vulnerability.
+ 
+# III. SUBNETS PORTSCANNING & FUZZING:
+## Subnet Port Scanning:
+
+**Identify the target subnet:** Determine the range of IP addresses that make up the subnet you want to scan. For example, if the subnet is 192.168.0.0/24, it includes IP addresses from 192.168.0.1 to 192.168.0.254.
+ 
+**Select a port scanning tool:** Choose a port scanning tool that supports scanning multiple IP addresses or subnets. Nmap is a commonly used tool that can perform subnet scans efficiently.
+ 
+**Execute the subnet port scan:** Use the chosen tool to scan the target subnet for open ports. For instance, with Nmap, you can run the command nmap -p 1-65535 <subnet> to scan all ports for all IP addresses in the subnet.
+ 
+**Analyze the results:** Review the scan results to identify open ports across the IP addresses in the subnet. This will help you identify potential entry points for further investigation within the subnet.
+ 
+## Subnet Fuzzing:
+
+**Identify the target services:** Determine which services are running on the open ports identified during the subnet port scanning phase. This will help you focus your fuzzing efforts on specific services.
+ 
+**Select a fuzzing tool:** Choose a fuzzing tool that supports targeting multiple IP addresses or subnets and the specific protocols used by the services you want to fuzz. Tools like Burp Suite, OWASP ZAP, and Sulley are commonly used for this purpose.
+ 
+**Configure the fuzzing tool: ** Set up the fuzzing tool to target the identified services within the subnet. Specify the IP addresses and ports of the services, define the fuzzing parameters, and configure any additional options or constraints.
+ 
+**Launch the subnet fuzzing attack:** Start the fuzzing process using the configured tool. The tool will send fuzzing inputs to the target services across the IP addresses in the subnet.
+ 
+**Monitor and analyze the results:** Monitor the responses of the target services to the fuzzing inputs. Look for any crashes, errors, or abnormal behavior that may indicate vulnerabilities within the subnet.
+ 
 
