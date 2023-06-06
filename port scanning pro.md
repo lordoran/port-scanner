@@ -87,7 +87,9 @@ subfinder -d <domain> -o <output.txt>`
 
 
 `aquatone-discover -d <domain> -o <output.txt>``
-`
+
+
+
 TLD Enumeration:
 Use dnstwist to enumerate TLD variations:
 
