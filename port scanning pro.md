@@ -1,5 +1,6 @@
 # SCANNING & FUZZING PROCEDURE
 # WORDLISTS https://github.com/danielmiessler/SecLists
+# 1.URL
 
 ## Initial Port Scanning:
 
