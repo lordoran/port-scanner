@@ -2,38 +2,25 @@
 
 Tools: Masscan, Nmap, RustScan, Nessus
 
-Initial Port Scanning:
+## Initial Port Scanning:
 
-Use Masscan to get an overview of open ports:
-php
+I use Masscan to get an overview of open ports:
+ masscan <website URL> -p1-65535 --rate <scan rate>
 
-``` masscan <website URL> -p1-65535 --rate <scan rate> ```
-
-Detailed Port Scanning:
-
-Feed the open ports into Nmap for more comprehensive scanning and service detection:
-css
-Copy code
+for a detailed port scanning I'll feed the open ports into Nmap for more comprehensive scanning and service detection:
 nmap -p <open ports> -A <website URL>
-Advanced Port Scanning:
 
-Alternatively, you can use RustScan as a faster and more convenient replacement for Masscan and Nmap:
-css
-Copy code
+#Alternatively, I can use RustScan as a faster and more convenient replacement for Masscan and Nmap:
 rustscan -a <website URL>
-Vulnerability Scanning:
 
-Utilize Nessus, a powerful vulnerability scanning tool, to identify potential vulnerabilities in the scanned services. Nessus provides detailed reports on security issues and helps prioritize remediation efforts.
-Endpoint Fuzzing:
-Tools: Burp Suite, OWASP ZAP, ffuf, DirBuster
 
 Fuzzing Endpoints:
 Use ffuf or DirBuster to fuzz endpoints and discover hidden or vulnerable directories:
-php
-Copy code
+
 ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all
 gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html
-Subdomain Enumeration:
+
+## Subdomain Enumeration:
 Tools: Subfinder, Amass, Assetnote, Chaos, Aquatone, Sublist3r
 
 Subdomain Enumeration:
