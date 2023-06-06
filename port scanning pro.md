@@ -19,9 +19,9 @@ For a detailed port scanning I'll feed the open ports into Nmap for more compreh
 ## Fuzzing Endpoints:
 Use ffuf or DirBuster to fuzz endpoints and discover hidden or vulnerable directories:
 
-`ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all
+`ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all`
 
-gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
+`gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
 
 
 ## Subdomain Enumeration:
@@ -30,15 +30,15 @@ Tools: Subfinder, Amass, Assetnote, Chaos, Aquatone, Sublist3r
 Subdomain Enumeration:
 
 Use Subfinder, Amass, Assetnote, Chaos, or Aquatone to enumerate subdomains:
+`
+subfinder -d <domain> -o <output.txt>`
 
-`subfinder -d <domain> -o <output.txt>
+`amass enum -d <domain> -o <output.txt>`
 
-amass enum -d <domain> -o <output.txt>
-
-assetnote -u <domain> -o <output.txt>
-
-chaos -d <domain> -o <output.txt>
-
+`assetnote -u <domain> -o <output.txt>`
+`
+chaos -d <domain> -o <output.txt>`
+`
 aquatone-discover -d <domain> -o <output.txt>`
 
 TLD Enumeration:
