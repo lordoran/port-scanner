@@ -70,7 +70,7 @@ Disadvantages:
 Limited to web assets and doesn't offer subdomain enumeration or other asset discovery capabilities.
 May generate false negatives if the target assets are not accessible or configured to block automated scanning.
 
-Subdomain Enumeration:
+## Subdomain Enumeration:
 
 Use Subfinder, Amass, Assetnote, Chaos, or Aquatone to enumerate subdomains:
 
