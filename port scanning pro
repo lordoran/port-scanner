@@ -6,9 +6,9 @@ Initial Port Scanning:
 
 Use Masscan to get an overview of open ports:
 php
-```
-masscan <website URL> -p1-65535 --rate <scan rate>
-```
+
+``` masscan <website URL> -p1-65535 --rate <scan rate> ```
+
 Detailed Port Scanning:
 
 Feed the open ports into Nmap for more comprehensive scanning and service detection:
