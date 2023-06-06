@@ -1,6 +1,6 @@
 # SCANNING & FUZZING PROCEDURE
 # WORDLISTS https://github.com/danielmiessler/SecLists
-# 1.URL
+# I.URL
 
 ## Initial Port Scanning:
 
@@ -134,7 +134,7 @@ Gobuster, Dirsearch, or DirBuster to discover files and directories:
 
 `gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
 
-# IP PORTSCANING & FUZZING
+# II. IP PORTSCANING & FUZZING
 Identify the IP address: Determine the target IP address that you want to scan and fuzz. This could be a specific machine or a network range.
 
 ## Port Scanning:
