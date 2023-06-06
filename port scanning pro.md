@@ -58,8 +58,8 @@ Use Burp Suite or OWASP ZAP for manual parameter fuzzing
 ## File and Directory Discovery:
 Gobuster, Dirsearch, or DirBuster to discover files and directories:
 
-`gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html
+`gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
 
-dirsearch -u <URL> -w <wordlist.txt> -e .php,.html
+`dirsearch -u <URL> -w <wordlist.txt> -e .php,.html`
 
-gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
+`gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
