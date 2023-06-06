@@ -4,9 +4,11 @@
 ## Initial Port Scanning:
 
 I use Masscan to get an overview of open ports:
+
 ` masscan <website URL> -p1-65535 --rate <scan rate>`
 
 For a detailed port scanning I'll feed the open ports into Nmap for more comprehensive scanning and service detection:
+
 `nmap -p <open ports> -A <website URL>`
 
 ## Alternatively, I can use RustScan as a faster and more convenient replacement for Masscan and Nmap:
