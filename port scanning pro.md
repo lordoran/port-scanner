@@ -1,4 +1,5 @@
 # SCANNING & FUZZING PROCEDURE
+# WORDLISTS https://github.com/danielmiessler/SecLists
 
 ## Initial Port Scanning:
 
@@ -18,8 +19,6 @@ Use ffuf or DirBuster to fuzz endpoints and discover hidden or vulnerable direct
 `ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all
 gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
 
-wordlist 
-https://github.com/danielmiessler/SecLists
 
 ## Subdomain Enumeration:
 Tools: Subfinder, Amass, Assetnote, Chaos, Aquatone, Sublist3r
