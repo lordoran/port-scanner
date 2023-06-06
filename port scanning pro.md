@@ -18,7 +18,7 @@ For a detailed port scanning I'll feed the open ports into Nmap for more compreh
 
 
 ## Fuzzing Endpoints:
-### FFUF or FIRBUSTER
+### 1. FFUF or FIRBUSTER
 Use ffuf or DirBuster to fuzz endpoints and discover hidden or vulnerable directories:
 
 `ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all`
