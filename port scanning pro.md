@@ -18,11 +18,31 @@ For a detailed port scanning I'll feed the open ports into Nmap for more compreh
 
 
 ## Fuzzing Endpoints:
+### FFUF or FIRBUSTER
 Use ffuf or DirBuster to fuzz endpoints and discover hidden or vulnerable directories:
 
 `ffuf -w <wordlist.txt> -u <URL>/FUZZ -mc all`
 
 `gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
+
+### 2. BURPSUITE 
+Launch Burp Suite: Start Burp Suite and ensure that your browser is configured to proxy through Burp.
+
+Configure the Target: In Burp Suite, go to the "Target" tab and provide the URL of the application or endpoint you want to fuzz. You can also specify any necessary headers or cookies.
+
+Open the Intruder Module: Go to the "Intruder" tab in Burp Suite.
+
+Define the Payloads: In the "Intruder" tab, switch to the "Positions" sub-tab. Here, select the positions in the request that you want to fuzz, such as input fields, parameters, or headers.
+
+Customize the Payloads: Move to the "Payloads" sub-tab. You can now define the payloads that will be sent during the fuzzing process. Burp Suite provides several payload types, such as lists, character sets, and payload generators.
+
+Configure Fuzzing Options: In the "Options" sub-tab, you can customize various fuzzing options, such as the number of threads, delays between requests, and response handling.
+
+Start the Fuzzing Attack: Once you have configured the payloads and options, switch to the "Attack" sub-tab and click on the "Start attack" button to initiate the fuzzing attack.
+
+Analyze the Results: Burp Suite will start sending the specified payloads to the targeted positions in the request. Monitor the responses for any unexpected behavior, crashes, error messages, or other indications of potential vulnerabilities.
+
+Refine and Iterate: Based on the results, you can refine your payloads, fuzzing options, and targeted positions to focus on potential areas of weakness and conduct further testing.
 
 
 ## Subdomain Enumeration:
@@ -113,3 +133,6 @@ Gobuster, Dirsearch, or DirBuster to discover files and directories:
 `dirsearch -u <URL> -w <wordlist.txt> -e .php,.html`
 
 `gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
+
+# IP
+
