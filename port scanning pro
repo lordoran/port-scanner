@@ -1,4 +1,4 @@
-To make your port scanning procedure more sophisticated, you can enhance it with additional techniques and tools. Here's an updated version of your procedure:
+#port scanning procedure#
 
 Tools: Masscan, Nmap, RustScan, Nessus
 
@@ -6,8 +6,9 @@ Initial Port Scanning:
 
 Use Masscan to get an overview of open ports:
 php
-Copy code
+```
 masscan <website URL> -p1-65535 --rate <scan rate>
+```
 Detailed Port Scanning:
 
 Feed the open ports into Nmap for more comprehensive scanning and service detection:
