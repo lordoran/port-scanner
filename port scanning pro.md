@@ -28,6 +28,7 @@ Tools: Subfinder, Amass, Assetnote, Chaos, Aquatone, Sublist3r
 Subdomain Enumeration:
 
 Use Subfinder, Amass, Assetnote, Chaos, or Aquatone to enumerate subdomains:
+
 `subfinder -d <domain> -o <output.txt>
 amass enum -d <domain> -o <output.txt>
 assetnote -u <domain> -o <output.txt>
