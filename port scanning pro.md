@@ -41,8 +41,8 @@ subfinder -d <domain> -o <output.txt>`
 `assetnote -u <domain> -o <output.txt>`
 `
 
-chaos -d <domain> -o <output.txt>`
-`
+chaos -d <domain> -o <output.txt>
+
 
 aquatone-discover -d <domain> -o <output.txt>`
 
