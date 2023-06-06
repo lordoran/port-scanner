@@ -63,4 +63,3 @@ Gobuster, Dirsearch, or DirBuster to discover files and directories:
 dirsearch -u <URL> -w <wordlist.txt> -e .php,.html
 
 gobuster dir -u <URL> -w <wordlist.txt> -x .php,.html`
-
